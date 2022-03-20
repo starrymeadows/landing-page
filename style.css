@@ -6,7 +6,7 @@ body {
     font-family: Roboto;
 }
 
-.header {
+header {
     background-color: #1F2937;
     padding: 16px 15% 120px;
 }
@@ -21,6 +21,7 @@ body {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: 900;
+    margin: 0;
 }
 
 ul {
@@ -49,12 +50,14 @@ a {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin: 0px;
     margin-bottom: 5px;
 }
 
 .hero-secondary {
     font-size: 18px;
     color: #E5E7EB;
+    margin-top: 0px;
     margin-bottom: 15px;
 }
 
