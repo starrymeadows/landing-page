@@ -45,6 +45,7 @@ a {
 .hero {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -78,8 +79,7 @@ a {
 .hero-media {
     background-color: #66696d;
     color: #F9FAF8;
-    width: 50%;
-    height: auto;
+    width: 45%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -99,6 +99,7 @@ a {
 
 .info-content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0 15%;
     gap: 25px;
@@ -155,6 +156,7 @@ a {
     color:#F9FAF8;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 70%;
     padding: 3rem 7rem;
     margin: 5rem auto; 
